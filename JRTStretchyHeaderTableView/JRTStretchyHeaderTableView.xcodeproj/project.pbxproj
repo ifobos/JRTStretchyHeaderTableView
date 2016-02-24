@@ -62,15 +62,15 @@
 			isa = PBXGroup;
 			children = (
 				311BD3C11C58016C008A1422 /* PodFiles */,
+				311BD3B01C5800C8008A1422 /* Supporting Files */,
 				311BD3B31C5800C8008A1422 /* AppDelegate.h */,
 				311BD3B41C5800C8008A1422 /* AppDelegate.m */,
+				311BD3B61C5800C8008A1422 /* Assets.xcassets */,
+				311BD3BB1C5800C8008A1422 /* Info.plist */,
+				311BD3B81C5800C8008A1422 /* LaunchScreen.storyboard */,
 				311BD3C51C58058B008A1422 /* TableViewController.h */,
 				311BD3C61C58058B008A1422 /* TableViewController.m */,
 				311BD3C71C58058B008A1422 /* TableViewController.xib */,
-				311BD3B61C5800C8008A1422 /* Assets.xcassets */,
-				311BD3B81C5800C8008A1422 /* LaunchScreen.storyboard */,
-				311BD3BB1C5800C8008A1422 /* Info.plist */,
-				311BD3B01C5800C8008A1422 /* Supporting Files */,
 			);
 			path = JRTStretchyHeaderTableView;
 			sourceTree = "<group>";
@@ -80,7 +80,7 @@
 			children = (
 				311BD3B11C5800C8008A1422 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		311BD3C11C58016C008A1422 /* PodFiles */ = {
@@ -178,6 +178,7 @@
 				311BD3B91C5800C8008A1422 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -306,6 +307,7 @@
 				311BD3C01C5800C8008A1422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
